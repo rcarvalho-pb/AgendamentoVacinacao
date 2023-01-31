@@ -22,7 +22,7 @@ public class MenuListarAgendamento extends MenuAbstrato {
       System.out.println("Não há agendamentos. \n");
       return;
     }
-    System.out.println("Agendamentos: ");
+    System.out.println("Agendamentos: \n");
     agendamentos.forEach(System.out::println);    
   }
   

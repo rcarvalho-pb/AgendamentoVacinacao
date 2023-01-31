@@ -4,10 +4,8 @@ import java.time.LocalDate;
 
 public abstract class Entidade {
   protected String id;
-  protected LocalDate dataVacinacao;
 
-  public Entidade(LocalDate dataVacinacao, String id) {
-    this.dataVacinacao = dataVacinacao;
+  public Entidade(String id) {
     this.id = id;
   }
 
